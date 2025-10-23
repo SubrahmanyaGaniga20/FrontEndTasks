@@ -1,0 +1,31 @@
+h3{
+    color: red;
+    background-color: aliceblue;
+}
+h4{
+    color: yellow;
+    background-color: black;
+}
+
+#trow1{
+    color: black;
+    background-color:orange;
+}
+.trowd2{
+    color: aqua;
+    background-color: blueviolet;
+}
+.trow2{
+    color: gold;
+    background-color: red;
+}
+
+i,u{
+    color: brown;
+    background-color: green;
+}
+*{
+    color:white;
+    background-color: black;
+}
+
