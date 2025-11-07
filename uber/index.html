@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .up{
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            height: 80px;
+            font-size: xx-large;
+            align-items: center;     
+        }
+        .vehicles{
+            display: flex;
+            justify-content: space-evenly;
+            transition: 1s ease;
+        }
+        .bike{
+           margin: 50px;
+           border: 1px solid black;
+           box-shadow: 0 0 5px black;
+           border-radius: 20px;
+           
+          
+        }
+        .vehicles :hover{
+            transform: scale(1.05);
+
+        }
+        .auto{
+            margin: 50px;
+           border: 1px solid black;
+           box-shadow: 0 0 5px black;
+           border-radius: 20px;
+        }
+        .car{
+            margin: 50px;
+           border: 1px solid black;
+           box-shadow: 0 0 5px black;
+           border-radius: 20px;
+        }
+        .bike input{
+           margin-left:90px ;
+           border-radius: 10px;
+           padding: 10px;
+        }
+        .bike button{
+            margin-top: 5px;
+            width: 180px;
+            margin-left: 94px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            margin-bottom: 5px;
+        }
+        .auto input{
+           margin-left:90px ;
+           border-radius: 10px;
+           padding: 10px;
+        }
+        .auto button{
+            margin-top: 5px;
+            width: 180px;
+            margin-left: 94px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            margin-bottom: 5px;
+        }
+        .car input{
+           margin-left:90px ;
+           border-radius: 10px;
+           padding: 10px;
+           border-color: rgb(41, 37, 37);
+        }
+        .car button{
+            margin-top: 5px;
+            width: 180px;
+            margin-left: 94px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            margin-bottom: 5px;
+        }
+        img{
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="up">Uber</div>
+    <div class="vehicles">
+        <div class="bike">
+            <img height="300px" width="350px" src="./bike.webp" alt=""><br>
+            <input type="text" value="Enter KM"><br>
+            <button>Book Now</button>
+        </div>
+        <div class="auto">
+            <img height="300px" width="350px" src="./auto.webp" alt=""><br>
+            <input type="text" value="Enter KM"><br>
+            <button>Book Now</button>
+        </div>
+        <div class="car"><img height="300px" width="350px" src="./car.webp" alt=""><br>
+          <input type="text" value="Enter KM"><br>
+            <button>Book Now</button>
+        </div>
+    </div>
+</body>
+</html>
